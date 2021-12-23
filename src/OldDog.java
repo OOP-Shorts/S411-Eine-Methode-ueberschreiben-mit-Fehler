@@ -17,8 +17,8 @@ public class OldDog extends Dog{
 
     @Override
     public void bark() {
-        if (!isDeaf) {
-            super.bark();
+        if(isDeaf){
+            bark();
         }
     }
 }
